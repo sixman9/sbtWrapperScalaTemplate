@@ -25,7 +25,7 @@ SBT Wrapper scripts (sbt/sbt.bat) either written or sourced by [Richard Joseph](
 
 *This means that no system-wide SBT installation is necessary, and SBT is/can be distrubuted along with the project itself, speeding up developement.
 
-### License
+### License (Permissive)
 
 This code/project is shared under the terms of the Creative Commons
 Attribution-ShareAlike 3.0 Unported License.
