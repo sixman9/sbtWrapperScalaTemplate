@@ -1,5 +1,6 @@
-package com.alvinalexander.testproject
+package com.some.code
 
+//Import ScalaTest artifact(s) - See http://scalatest.org for more info
 import org.scalatest.FunSuite
  
 class HelloSuite extends FunSuite {
