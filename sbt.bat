@@ -4,7 +4,7 @@ REM - sbt-launcher.jar script - will download sbt-launcher.jar, if required
 
 REM Author - Richard Joseph [sixman9-at-gmail-dot-com]
 
-SET SBT_LAUNCH_VER=0.13.5
+SET SBT_LAUNCH_VER=0.13.8
 
 SET SCRIPT_DIR=%~dp0
 
