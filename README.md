@@ -1,6 +1,6 @@
-# Basic Scala-with-SBT-wrapper Project and ScalaTest Support (*nix & Windows)
+# Basic Scala/SBT-wrapper Project, with ScalaTest Support (*nix & Windows)
 
-This is a template for a basic Scala/SBT **project able to download a, project-local, copy of the [SBT][SBT] runtime** itself*. The project also has an example and dependency references for [ScalaTest][ScalaTest] support, the latter within the 'build.sbt' project file.
+This is a template for a basic Scala/SBT **project able to download a, project-local, copy of the [SBT][SBT] AND [Scala][Scala-lang] runtimes**, themselves*. The project also has an example of, and dependency references for, [ScalaTest][ScalaTest] support (see 'build.sbt' project file for dependency management etc.).
 
 Grab this project if you want a template/skeleton directory structure for a new project that has the following, e.g.:
 
@@ -37,3 +37,4 @@ See http://creativecommons.org/licenses/by-sa/3.0/ for more information.
 
 [ScalaTest]: http://scalatest.org
 [SBT]: http://www.scala-sbt.org
+[Scala-lang]: http://www.scala-lang.org
