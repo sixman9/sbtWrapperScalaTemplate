@@ -8,14 +8,14 @@ import scala.scalajs.js.Dynamic.{ global => g, newInstance => jsnew }
 
 object ExampleApp extends JSApp {
   def main(): Unit = {
-    var stringFromJS = g.jsVar4ScalaJS
-    println(stringFromJS)
+    val stringFromJS = g.jsVar4ScalaJS
+    println(stringFromJS + " <= This text passed/retrieved/printed by Scala.JS code!")
 
     //http://stackoverflow.com/questions/29921144/check-if-call-result-is-undefined
-    println(if (js.isUndefined(g.thisVarShouldIsUndefined)) "thisVarShouldIsUndefined => undefined :-("
-      else "thisVarShouldIsUndefined OK")
+    println(if (js.isUndefined(g.thisVarShouldBeUndefined)) "thisVarShouldBeUndefined => undefined :-("
+      else "thisVarShouldBeUndefined OK")
 
-    var reverseStringFromJS = stringFromJS.asInstanceOf[String].reverse
+    val reverseStringFromJS = stringFromJS.asInstanceOf[String].reverse
     dom.alert(reverseStringFromJS)
   }
 }
