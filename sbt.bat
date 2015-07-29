@@ -18,7 +18,7 @@ SET SBT_LAUNCH_JAR_REPO_NAME=%SBT_LAUNCH_JAR_NAME_PREFIX%.%JAR_EXT%
 SET SBT_LAUNCH_JAR_LOCAL_NAME=%SBT_LAUNCH_JAR_NAME_PREFIX%-%SBT_LAUNCH_VER%.%JAR_EXT%
 SET SBT_LAUNCH_JAR_LOCAL_PATH=%SCRIPT_DIR%\%SBT_LAUNCH_JAR_LOCAL_NAME%
 
-SET SBT_LAUNCH_JAR_URL=http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/%SBT_LAUNCH_VER%/%SBT_LAUNCH_JAR_REPO_NAME%
+SET SBT_LAUNCH_JAR_URL=http://dl.bintray.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/%SBT_LAUNCH_VER%/%SBT_LAUNCH_JAR_REPO_NAME%
 
 REM Download the sbt-launch.jar, if not already present
 if NOT EXIST "%SBT_LAUNCH_JAR_LOCAL_PATH%" (
